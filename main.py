@@ -634,8 +634,8 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'Index : {str(count).zfill(3)}\n\n** Title :** `{name1}`\n**-**  {CR} .mp4\n\n**Batch :** {b_name}\n\n**📥 Downloaded By :** {CR}'
-                cc1 = f'Index :{str(count).zfill(3)}\n\n** Title :** `{name1}`\n**-**  {CR} .pdf\n\n**Batch :** {b_name}\n\n**📥 Downloaded By :** {CR}'
+                cc = f'Index : {str(count).zfill(3)}\n\n** Title :** `{name1}`**-**  {CR} .mp4\n\n**Batch :** {b_name}\n\n**📥 Downloaded By :** {CR}'
+                cc1 = f'Index :{str(count).zfill(3)}\n\n** Title :** `{name1}`**-**  {CR} .pdf\n\n**Batch :** {b_name}\n\n**📥 Downloaded By :** {CR}'
                 cczip = f'[——— ✦ {str(count).zfill(3)} ✦ ———]({link0})\n\n**📁 Title :** `{name1}`\n**├── Extention :**  {CR} .zip\n\n**📚 Course :** {b_name}\n\n**🌟 Extracted By :** {CR}'
                 ccimg = f'[——— ✦ {str(count).zfill(3)} ✦ ———]({link0})\n\n**🖼️ Title :** `{name1}`\n**├── Extention :**  {CR} .jpg\n\n**📚 Course :** {b_name}\n\n**🌟 Extracted By :** {CR}'
                 ccm = f'[——— ✦ {str(count).zfill(3)} ✦ ———]({link0})\n\n**🎵 Title :** `{name1}`\n**├── Extention :**  {CR} .mp3\n\n**📚 Course :** {b_name}\n\n**🌟 Extracted By :** {CR}'
